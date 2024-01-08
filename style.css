@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    width: 88px;
+    height: 88px;
+    border: solid 1px black;
+    background: wheat;
+}
+
+.grids {
+    width: 360px;
+    height: 360px;
+    background: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px;
+}
