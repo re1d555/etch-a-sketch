@@ -1,23 +1,28 @@
 html, body {
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 .grid {
-    width: 88px;
-    height: 88px;
-    border: solid 1px black;
-    background: wheat;
+    background: white;
 }
 
 .grids {
-    width: 360px;
-    height: 360px;
+    width: 400px;
+    height: 400px;
     background: lightblue;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
     padding: 5px;
+}
+
+#gridSelect {
+    width: 200px;
+    height: 50px;
+    font-size: xx-large;
 }
