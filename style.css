@@ -7,10 +7,6 @@ html, body {
     gap: 40px;
 }
 
-.grid {
-    background: white;
-}
-
 .grids {
     width: 400px;
     height: 400px;
@@ -21,8 +17,8 @@ html, body {
     padding: 5px;
 }
 
-#gridSelect {
-    width: 200px;
-    height: 50px;
-    font-size: xx-large;
+.gridSelect {
+    width: 195px;
+    height: 45px;
+    font-size: larger;
 }
