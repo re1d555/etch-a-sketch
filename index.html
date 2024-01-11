@@ -3,12 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-a-Sketch</title>
+    <title>Etch-a-sketch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <button class="gridSelect">Choose grid quantity</button>
-  <div class="grids"></div>
+
+  <div class="header">
+    <h1 class="title">Etch-a-sketch</h1>
+  </div>
+
+  <div class="content">
+    <button class="gridSelect">Choose grid quantity</button>
+    <div class="mods">
+      <div class="buttonMods">
+        <h3>Choose mode</h3>
+        <button class="standard modBtn">Standard mode </button>
+        <button class="rgb modBtn">RGB mode</button>
+        <button class="darker modBtn">Getting darker mode</button>
+      </div>  
+      <div class="grids" ></div>
+    </div>
+    <button class="clear">Clear</button>
+  </div>
+
+  <!-- <div class="footer">Odin-re1d555</div> -->
 
 <script src="script.js"></script>
 </body>

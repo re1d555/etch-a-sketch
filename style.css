@@ -2,9 +2,25 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    margin-bottom: auto;
+    height: 70px;
+    background: coral;
+    display: flex;
+    align-items: center;
     justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 40px;
+    margin-bottom: 215px;
+    margin-right: 275px;
 }
 
 .grids {
@@ -15,10 +31,34 @@ html, body {
     flex-wrap: wrap;
     align-content: flex-start;
     padding: 5px;
+    box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, .2);
 }
 
-.gridSelect {
+button {
     width: 195px;
     height: 45px;
     font-size: larger;
+    box-shadow: 7px 7px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.mods {
+    display: flex;
+    gap: 60px;
+}
+
+.buttonMods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+.gridSelect, .clear {
+    margin-left: 275px;
 }
